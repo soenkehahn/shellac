@@ -11,6 +11,7 @@
         rustPkgs = pkgs.rustBuilder.makePackageSet {
           rustVersion = "1.73.0";
           packageFun = import ./Cargo.nix;
+          extraRustComponents = [ "clippy" ];
         };
       in
       {

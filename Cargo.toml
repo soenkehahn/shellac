@@ -4,4 +4,7 @@ version = "0.0.0"
 edition = "2021"
 
 [dependencies]
+serde = "1.0.193"
+serde_yaml = "0.9.29"
 swayipc = "3.0.2"
+xdg = "2.5.2"
